@@ -1,19 +1,25 @@
 html {
     font-size: 10px;
-    background: url('./background.jpg') bottom center;
+    background: url('./oscar-keys.jpg') bottom center;
     background-size: cover;
   }
   
   body,html {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
+  .container {
+    text-align: center;
+}
+
   .keys {
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
+    display: inline-block;
+    /* flex: 1; */
+    /* min-height: 100vh; */
     align-items: center;
     justify-content: center;
   }
@@ -34,8 +40,8 @@ html {
   
   .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #DE3163;
+    box-shadow: 0 0 1rem #DE3163;
   }
   
   kbd {
@@ -47,5 +53,15 @@ html {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #DE3163;
   }
+
+  .key-group1 {
+    display: flex;
+    justify-content: center;
+}
+
+.key-group2 {
+  display: flex;
+  justify-content: center;
+}
